@@ -1,0 +1,33 @@
+{
+  "name": "paradise-nursery",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Paradise Nursery plant shopping application built with React and Redux Toolkit.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build && node scripts/build-preview.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.13.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-redux": "^9.3.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
+    "@vitejs/plugin-react": "^6.1.2",
+    "esbuild": "^0.28.2",
+    "jsdom": "^30.1.2",
+    "vite": "^8.3.2",
+    "vitest": "^5.0.3"
+  }
+}
